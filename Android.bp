@@ -99,6 +99,7 @@ cflags_common = [
     "-fno-semantic-interposition",
     "-std=c99",
     "-DUNALIGNED_OK",
+    "-funroll-loops",
 ]
 
 cc_defaults {
