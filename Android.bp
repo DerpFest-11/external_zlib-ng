@@ -96,7 +96,6 @@ cflags_common = [
     "-Wno-implicit-fallthrough",
     "-O3",
     "-DNDEBUG",
-    "-fno-semantic-interposition",
     "-std=c99",
     "-DUNALIGNED_OK",
     "-funroll-loops",
